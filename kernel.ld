@@ -8,7 +8,7 @@ SECTIONS {
     *(.text .text.*);
   }
 
-  .rodate : ALIGN(4) {
+  .rodata : ALIGN(4) {
     *(.rodata .rodata.*);
   }
 
